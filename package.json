@@ -1,0 +1,16 @@
+{
+  "name": "llamaindex-ai",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "OPENAI_API_KEY=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 node --loader ts-node/esm ./src/pdf.ts"
+  },
+  "dependencies": {
+    "llamaindex": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
